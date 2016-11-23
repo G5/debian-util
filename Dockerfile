@@ -1,4 +1,4 @@
 FROM debian:jessie
 
 RUN apt-get update && \
-    apt-get install openssh-client git vim
+    apt-get install -y openssh-client git vim
